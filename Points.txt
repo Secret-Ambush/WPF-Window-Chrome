@@ -1,0 +1,4 @@
+FottyWeaver is no longer necessary. You can simply use INotifyPropertyChanged.
+You don't need to use Microsoft.Windows.Shell. You can simply set WindowStyle="None" and ResizeMode="CanResize".
+To use custom fonts, you have to click on each font file and set the Build Action in the Properties Panel to Resource, and in the
+fonts.xaml ResourceDictionary instead of pointing to the file as "pack://application;,,,/Fonts/#Latto Regular" you just need to put "/Fonts/#Latto Regular".
