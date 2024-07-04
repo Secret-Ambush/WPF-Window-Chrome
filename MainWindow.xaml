@@ -11,8 +11,7 @@
         WindowStartupLocation="CenterScreen"
         x:Name="AppWindow" 
         Icon="Images/Logo/logo-small.png"
-        MinHeight="{Binding WindowMinimumHeight}"
-        MinWidth="{Binding WindowMinimumWidth}"
+        SizeToContent="WidthAndHeight"
         Title="Welcome,friend!" Height="600" Width="900"
         Style="{StaticResource WindowStyle}" d:Template="{StaticResource WindowTemplate}"
         d:DataContext="{d:DesignInstance vm:WindowViewModel}">
